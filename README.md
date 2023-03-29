@@ -1,5 +1,4 @@
 # Digital-Music-Store-Analysis-Using-SQL
-Digital Music Store Analysis Using SQL
 
 Title : Digital Music Store Analysis
 
