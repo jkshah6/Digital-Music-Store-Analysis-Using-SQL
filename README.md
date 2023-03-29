@@ -21,17 +21,22 @@ PART 1 :
 --GROUP BY billing_country
 --ORDER BY MOST_inovices DESC
 
+
 3-- Total invoice of top 3 values
 --select total,invoice_id
 --from `music_store.invoice`
 --ORDER BY total DESC
 --LIMIT 3
 
+
+
 4-- City that have best customers and returns one city that has highest sum of inovice totals
 --SELECT billing_city, round(sum(total),2) as invoice_total
 --FROM `music_store.invoice`
 --GROUP By billing_city
 --ORDER BY invoice_total DESC
+
+
 
 5-- WHo is the best customers ? Customers that has spent the most money 
 --select c.customer_id,c.first_name, round(sum(i.total),2) as TOTAL
@@ -43,6 +48,8 @@ PART 1 :
 --LIMIT 1
 
 PART 2:
+
+
 1--To get email,last_name, & genra of all rock music and sort by email start with A
 SELECT DISTINCT email,first_name, Last_name
 FROM customer
@@ -55,6 +62,7 @@ FROM customer
 --)
 --ORDER BY email
 
+
 2.--artist who has most written rock music and return artist name with total track count of top 10 rock bands
 --SELECT artist.artist_id,count(artist.artist.id)
 --FROM music_store.track  
@@ -65,6 +73,8 @@ FROM customer
 --GROUP BY artist.artist_id
 --ORDER BY count(artist.artist.id) DESC
 --LIMIT 10
+
+
 
 3--Track which has longest length longerthan average song length and also return name and milliseconds for track.Sort by longest songs
 --select name, milliseconds
