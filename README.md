@@ -8,5 +8,8 @@ Database and Tool :
 
 Google Big query
 
+Schema :
+
+https://github.com/jkshah6/Digital-Music-Store-Analysis-Using-SQL/blob/main/Schema.png
 
 
