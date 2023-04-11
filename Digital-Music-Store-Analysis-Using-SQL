@@ -73,4 +73,3 @@ from music_store.track
  select round(avg(milliseconds),2) 
  From music_store.track ) 
 ORDER BY milliseconds DESC
-
